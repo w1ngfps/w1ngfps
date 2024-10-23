@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.player-select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.custom-select {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.rank-select {
+    font-size: 14px; /* フォントサイズを小さく */
+    margin-left: 10px;
+    height: 30px; /* 縦を少し太く */
+}
+
+.custom-select label {
+    font-size: 18px; /* ラベルのフォントサイズを大きく */
+    font-weight: bold; /* 太字にすることもできます */
+}
+
+button {
+    padding: 10px 15px;
+}
+
+#result {
+    font-size: 18px; /* 結果表示のフォントサイズ */
+}
